@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitStudy", "BitStudy\BitStudy.csproj", "{6A4132B7-B3F5-4595-B972-24E05F35F4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{990AD9D4-250B-4BAA-B28E-B7FF87253157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitStudy.Tests", "BitStudy.Tests\BitStudy.Tests.csproj", "{24607DBD-0205-42B4-949B-1A0688B11F69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A4132B7-B3F5-4595-B972-24E05F35F4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4132B7-B3F5-4595-B972-24E05F35F4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4132B7-B3F5-4595-B972-24E05F35F4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4132B7-B3F5-4595-B972-24E05F35F4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990AD9D4-250B-4BAA-B28E-B7FF87253157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990AD9D4-250B-4BAA-B28E-B7FF87253157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990AD9D4-250B-4BAA-B28E-B7FF87253157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990AD9D4-250B-4BAA-B28E-B7FF87253157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24607DBD-0205-42B4-949B-1A0688B11F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24607DBD-0205-42B4-949B-1A0688B11F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24607DBD-0205-42B4-949B-1A0688B11F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24607DBD-0205-42B4-949B-1A0688B11F69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

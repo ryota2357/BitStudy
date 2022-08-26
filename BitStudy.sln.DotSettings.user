@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=78e24ef5_002D2d51_002D4bbd_002D8b62_002Dfc3ad14f65ce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="UnitTest1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::24607DBD-0205-42B4-949B-1A0688B11F69::net6.0::BitStudy.Tests.BitTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::24607DBD-0205-42B4-949B-1A0688B11F69::net6.0::BitStudy.Tests.GateTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::24607DBD-0205-42B4-949B-1A0688B11F69::net6.0::BitStudy.Tests.Numbers.Integer32Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::24607DBD-0205-42B4-949B-1A0688B11F69::net6.0::BitStudy.Tests.BitUtilTest&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
