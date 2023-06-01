@@ -17,7 +17,8 @@ public static class Gate
 
     public static Bit Xor(Bit a, Bit b)
     {
-        return (a == One && b == Zero) || (a == Zero && b == One);
+        // (a == One && b == Zero) || (a == Zero && b == One);
+        return a != b;
     }
 
     public static Bit Not(Bit a)
@@ -35,7 +36,7 @@ public static class Gate
         return a != One && b != One;
     }
 
-    public static Bit Nxor(Bit a, Bit b)
+    public static Bit Xnor(Bit a, Bit b)
     {
         // (a == Zero || b == One) && (a == One || b == Zero);
         return a == b;

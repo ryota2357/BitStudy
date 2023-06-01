@@ -59,7 +59,7 @@ public readonly struct Integer32 : IEquatable<Integer32>
     {
         for (var i = 0; i < 32; i++)
         {
-            if (Nxor(this.table[i], other.table[i])) continue;
+            if (Xnor(this.table[i], other.table[i])) continue;
             return false;
         }
 
@@ -247,7 +247,7 @@ public readonly struct Integer32 : IEquatable<Integer32>
     {
         for (var i = 0; i < 32; i++)
         {
-            if (Nxor(b.table[i], Bit.One)) goto NotZero;
+            if (Xnor(b.table[i], Bit.One)) goto NotZero;
         }
         throw new DivideByZeroException();
 

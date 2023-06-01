@@ -57,9 +57,9 @@ public class GateTest
     [Fact]
     public void Nxor()
     {
-        Assert.True(Gate.Nxor(new Bit(0), new Bit(0)));
-        Assert.False(Gate.Nxor(new Bit(0), new Bit(1)));
-        Assert.False(Gate.Nxor(new Bit(1), new Bit(0)));
-        Assert.True(Gate.Nxor(new Bit(1), new Bit(1)));
+        Assert.True(Gate.Xnor(new Bit(0), new Bit(0)));
+        Assert.False(Gate.Xnor(new Bit(0), new Bit(1)));
+        Assert.False(Gate.Xnor(new Bit(1), new Bit(0)));
+        Assert.True(Gate.Xnor(new Bit(1), new Bit(1)));
     }
 }
